@@ -4,7 +4,7 @@
 ---
 * 建立一個新的資料庫，取名字為website。<br>
   ``` mysql
-  CREATE DATABASES `website`;
+  CREATE DATABASE `website`;
   ```
 * 在資料庫中，建立會員資料表，取名字為member。<br>
   ``` mysql
