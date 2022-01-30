@@ -108,12 +108,17 @@
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/5-2.0.png)
 * 使用 SELECT 搭配 JOIN 語法，取得所有留言，結果須包含留言者會員的姓名。<br>
   ``` mysql
-  
+  SELECT g.id, g.member_id, b.name, g.content, g.time
+  FROM message g JOIN member b
+  ON g.member_id = b.id;
   ```
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/5-2.png)
 * 使用 SELECT 搭配 JOIN 語法，取得 member 資料表中欄位 username 是 test 的所有留言，資料中須包含留言者會員的姓名。<br>
   ``` mysql
-  
+  SELECT g.id, g.member_id, b.name, g.content, g.time
+  FROM message g JOIN member b
+  ON g.member_id = b.id;
+  WHERE username = "test";
   ```
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/5-3.png)
   
