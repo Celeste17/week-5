@@ -1,5 +1,27 @@
 # week-5
 
+### 要求二：建立資料庫和資料表
+---
+
+* 建立一個新的資料庫，取名字為website。<br>
+  ``` mysql
+  CREATE DATABASES `website`;
+  ```
+* 在資料庫中，建立會員資料表，取名字為member。<br>
+  ``` mysql
+  CREATE TABLE `member` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `follower_count` int NOT NULL DEFAULT '0',
+  `time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+  );
+  ```
+
+
+
 ### 要求三：SQL CRUD
 ---
 
