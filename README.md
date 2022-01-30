@@ -20,7 +20,7 @@
 
 ### 要求四：SQL Aggregate Functions
 #### 利用要求二建立的資料庫和資料表，寫出能夠滿足以下要求的 SQL 指令：<br>
-###### 目前 follower_count 欄位值
+##### 目前 follower_count 欄位值
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/4-0.png)
 * 取得 member 資料表中，總共有幾筆資料 ( 幾位會員 )。<br>
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/4-1.png)
@@ -33,7 +33,7 @@
 ### 要求五：SQL JOIN (Optional)
 * 在資料庫中，建立新資料表，取名字為message。<br>
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/5-1.png) <br>
-###### 目前 member 、 message 資料表內容
+##### 目前 member 、 message 資料表內容
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/5-2.0.png)
 * 使用 SELECT 搭配 JOIN 語法，取得所有留言，結果須包含留言者會員的姓名。<br>
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/5-2.png)
