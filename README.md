@@ -9,3 +9,16 @@
 * 使用 SELECT 指令取得欄位 username 是 test 的會員資料。
 * 使用 SELECT 指令取得欄位 username 是 test、且欄位 password 也是 test 的資料。
 * 使用 UPDATE 指令更新欄位 username 是 test 的會員資料，將資料中的 name 欄位改成 test2。
+
+
+### 要求四：SQL Aggregate Functions
+#### 利用要求二建立的資料庫和資料表，寫出能夠滿足以下要求的 SQL 指令：
+* 取得 member 資料表中，總共有幾筆資料 ( 幾位會員 )。
+* 取得 member 資料表中，所有會員 follower_count 欄位的總和。
+* 取得 member 資料表中，所有會員 follower_count 欄位的平均數。
+
+
+### 要求五：SQL JOIN (Optional)
+* 在資料庫中，建立新資料表，取名字為message。
+* 使用 SELECT 搭配 JOIN 語法，取得所有留言，結果須包含留言者會員的姓名。
+* 使用 SELECT 搭配 JOIN 語法，取得 member 資料表中欄位 username 是 test 的所有留言，資料中須包含留言者會員的姓名。
