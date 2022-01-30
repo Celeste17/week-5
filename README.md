@@ -2,8 +2,8 @@
 
 ### 要求三：SQL CRUD
 
-* 使用 INSERT 指令新增一筆資料到 member 資料表中，這筆資料的 username 和 password 欄位必須是 test。接著繼續新增至少 4 筆隨意的資料。
-  -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/3-1.png)
+* 使用 INSERT 指令新增一筆資料到 member 資料表中，這筆資料的 username 和 password 欄位必須是 test。接著繼續新增至少 4 筆隨意的資料。<br>
+  -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/3-1.png) 
 * 使用 SELECT 指令取得所有在 member 資料表中的會員資料。
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/3-2.png)
 * 使用 SELECT 指令取得所有在 member 資料表中的會員資料，並按照 time 欄位，由近到遠排序。
