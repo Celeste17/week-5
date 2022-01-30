@@ -2,7 +2,6 @@
 
 ### 要求二：建立資料庫和資料表
 ---
-
 * 建立一個新的資料庫，取名字為website。<br>
   ``` mysql
   CREATE DATABASES `website`;
@@ -19,7 +18,7 @@
   PRIMARY KEY (`id`)
   );
   ```
-
+*檔案為 website_1.sql*
 
 
 ### 要求三：SQL CRUD
@@ -109,7 +108,7 @@
   FROM `member`;
   ```
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/4-3.png)<br>
-
+*檔案為 website_2.sql*
 
 ### 要求五：SQL JOIN (Optional)
 ---
@@ -144,3 +143,4 @@
   ```
   -![](https://github.com/Celeste17/week-5/blob/main/week5%20mysql%E6%88%AA%E5%9C%96/5-3.png)
   
+*完整檔案為 data.sql*
